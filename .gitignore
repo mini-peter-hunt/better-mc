@@ -1,0 +1,6 @@
+__pycache__
+# .mcfunction generators
+*/.py
+
+# generation products
+better-crafting/data/minecraft/functions/better_crafting/*
