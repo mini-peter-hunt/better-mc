@@ -1,11 +1,11 @@
 # Better Crafting
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/peter-hunt/better-crafting">
+  <img src="https://img.shields.io/github/stars/mini-peter-hunt/better-crafting">
   <img src="https://img.shields.io/static/v1?label=Contributions&message=Welcome&color=0059b3">
-  <img src="https://img.shields.io/github/repo-size/peter-hunt/better-crafting">
-  <img src="https://img.shields.io/github/languages/top/peter-hunt/better-crafting">
-  <img src="https://img.shields.io/github/license/peter-hunt/better-crafting">
+  <img src="https://img.shields.io/github/repo-size/mini-peter-hunt/better-crafting">
+  <img src="https://img.shields.io/github/languages/top/mini-peter-hunt/better-crafting">
+  <img src="https://img.shields.io/github/license/mini-peter-hunt/better-crafting">
 </p>
 
 A data pack that change Minecraft
