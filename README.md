@@ -13,6 +13,18 @@ Contains easier tool, weapon and armor usage. There are even more options in the
 
 ## Installation
 
+To generate the full content, use the following command:
+
+```
+python3 gen.py
+```
+
+And to clean up the generated content, use the following command:
+
+```
+python3 clean.py
+```
+
 Add this data pack to a exist world:
 
 - Go to your `.minecraft` folder, go to `saves` and enter the world you want this data pack installed.
