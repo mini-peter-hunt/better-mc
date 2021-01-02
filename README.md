@@ -35,6 +35,8 @@ Add this data pack to a exist world:
 
 Or generate a world with this data pack. (started from [1.16 Pre-release 1](https://minecraft.gamepedia.com/Java_Edition_1.16_Pre-release_1))
 
+Please note that the data pack itself which Minecraft uses is the `better-craft` inside this folder.
+
 This project requires Python 3.6+
 
 ## More ingredients
