@@ -56,10 +56,12 @@ The features that are currently implemented are as follows:
 
 - Mend everything in the inventory and make them unbreakable
 - Make productions (slabs and stairs) smeltable and "vineable" (if has the original recipe)
+- Make tools and armor pieces cheaply upgradable using smithing table (wooden/leather -> iron -> diamond)
 
 ## Known Issues
 
 - Mending a thing and making it unbreakable removes all NBT tags but `Unbreakable`
+- Upgrading a tool or a armor piece may remove its NBT tags.
 
 ## Donation
 

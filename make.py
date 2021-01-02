@@ -1,12 +1,12 @@
 from clean import clean
-from recipe_gen import recipe_gen
-from tool_gen import tool_gen
+from make_recipe import make_recipe
+from make_itemfunc import make_itemfunc
 
 
 def make():
     clean()
-    recipe_gen()
-    tool_gen()
+    make_recipe()
+    make_itemfunc()
 
 
 if __name__ == '__main__':

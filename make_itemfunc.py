@@ -25,7 +25,7 @@ extra_armor = ('elytra', 'turtle_helmet')
 ae_ids = ('eltr', 'tthm')
 
 
-def tool_gen():
+def make_itemfunc():
     init = open(join(func_path, 'init.mcfunction'), 'w')
     tick = open(join(func_path, 'tick.mcfunction'), 'w')
 
@@ -45,13 +45,14 @@ def tool_gen():
             checker.write(
                 f'execute as '
                 f'@a[nbt={{Inventory: [{{id: "minecraft:{item_id}", '
-                f'tag: {{Unbreakable: 1b}}}}]}}] '
+                f'tag: {{Unbreakable: 0b}}}}]}}] '
                 f'run scoreboard players set @s '
                 f'has_{short_id} 1\n'
                 f'execute as @a[scores={{has_{short_id}=1}}] '
                 f'run clear @s minecraft:{item_id} 1\n'
                 f'execute as @a[scores={{has_{short_id}=1}}] '
-                f'run give @s minecraft:{item_id}{{Unbreakable:1}} 1\n'
+                f'run give @s '
+                f'minecraft:{item_id}{{Damage:0,Unbreakable:1b}} 1\n'
                 f'execute as @a[scores={{has_{short_id}=1}}] '
                 f'run scoreboard players set @s '
                 f'has_{short_id} 0\n'
@@ -80,4 +81,4 @@ def tool_gen():
 
 
 if __name__ == '__main__':
-    tool_gen()
+    make_itemfunc()
