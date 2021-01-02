@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/github/license/mini-peter-hunt/better-crafting">
 </p>
 
-A data pack that change Minecraft
+A data pack that change Minecraft, not limited to crafting!
 Contains easier tool, weapon and armor usage. There are even more options in the same style in the description below.
 
 ## Installation
