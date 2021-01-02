@@ -83,13 +83,13 @@ def make_recipe():
     for m_i, t_material in enumerate(t_upgd_materials):
         for t_type in t_upgd_types:
             write_upgradable_recipes(t_material, t_upgd_addition[m_i],
-                                          t_upgd_results[m_i], t_type)
+                                     t_upgd_results[m_i], t_type)
 
     # upgradable armor recipes
     for m_i, a_material in enumerate(a_upgd_materials):
         for a_type in a_upgd_types:
             write_upgradable_recipes(a_material, a_upgd_addition[m_i],
-                                          a_upgd_results[m_i], a_type)
+                                     a_upgd_results[m_i], a_type)
 
 
 if __name__ == '__main__':

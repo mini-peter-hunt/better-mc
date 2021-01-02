@@ -61,7 +61,8 @@ The features that are currently implemented are as follows:
 ## Known Issues
 
 - Mending a thing and making it unbreakable removes all NBT tags but `Unbreakable`
-- Upgrading a tool or a armor piece may remove its NBT tags.
+- Upgrading a tool or a armor piece may remove its NBT tags
+- Cleaning the content with file opened that should be cleaned might duplicate the file, which could cause duplication in the recipe book
 
 ## Donation
 
