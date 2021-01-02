@@ -16,8 +16,10 @@ Contains easier tool, weapon and armor usage. There are even more options in the
 To generate the full content, use the following command:
 
 ```
-python3 gen.py
+python3 make.py
 ```
+
+You can adjust to only generate the content you want in the `make.py`
 
 And to clean up the generated content, use the following command:
 
@@ -33,23 +35,27 @@ Add this data pack to a exist world:
 
 Or generate a world with this data pack. (started from 1.16 Pre-release 1)
 
-This project requires Python 3.6
+This project requires Python 3.6+
 
 ## More ingredients
 
 For more options in the style of this data pack, here's some things you can try:
 
-- Set gamerule `doFireTick` to `false`
-- Set gamerule `doWeatherCycle` to `false`
-- Set gamerule `keepInventory` to `true`
-- Set gamerule `mobGriefing` to `false`
-- Set gamerule `randomTickSpeed` to `300`
+- Modify some gamerule:
+- - Set `doFireTick` to `false`
+- - Set `doWeatherCycle` to `false`
+- - Set `keepInventory` to `true`
+- - Set `mobGriefing` to `false`
+- - Set `randomTickSpeed` to `300`
+- Use [Vanilla Tweaks](http://vanillatweaks.net/)
+- Use [Quark Mod](https://quark.vazkii.net/)
 
 ## Current State
 
 The features that are currently implemented are as follows:
 
 - Mend everything in the inventory and make them unbreakable
+- Make productions (slabs and stairs) smeltable and "vineable" (if has the original recipe)
 
 ## Known Issues
 

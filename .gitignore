@@ -6,3 +6,4 @@ __pycache__
 
 # generation products
 better-crafting/data/minecraft/functions/better_crafting/*
+better-crafting/data/minecraft/recipes/*

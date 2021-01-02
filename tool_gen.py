@@ -80,4 +80,4 @@ def tool_gen():
 
 
 if __name__ == '__main__':
-    tool_gen
+    tool_gen()
