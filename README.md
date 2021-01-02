@@ -43,12 +43,6 @@ The features that are currently implemented are as follows:
 
 - Mending a thing and making it unbreakable removes all NBT tags but `Unbreakable`
 
-## Extension
-
-[Cocktail Lang Support](https://github.com/peter-hunt/peter-hunt.cocktail-lang-support)
-
-WARNING: This extension is unstable, read the instructions carefully before installing.
-
 ## Donation
 
 This project is open-source and free-to-use, it would be really helpful to support me!
