@@ -19,7 +19,7 @@ To generate the full content, use the following command:
 python3 make.py
 ```
 
-You can adjust to only generate the content you want in the `make.py`
+You can adjust the `make.py` to only generate the content you want
 
 And to clean up the generated content, use the following command:
 
@@ -33,7 +33,7 @@ Add this data pack to a exist world:
 - Go to `datapacks` and copy the `better-crafting` folder inside the project folder into the `datapacks`
 - Run the game and use the command `/reload` to load the added data packs.
 
-Or generate a world with this data pack. (started from 1.16 Pre-release 1)
+Or generate a world with this data pack. (started from [1.16 Pre-release 1](https://minecraft.gamepedia.com/Java_Edition_1.16_Pre-release_1))
 
 This project requires Python 3.6+
 
@@ -41,7 +41,7 @@ This project requires Python 3.6+
 
 For more options in the style of this data pack, here's some things you can try:
 
-- Modify some gamerule:
+- [Modify](https://minecraft.gamepedia.com/Commands/gamerule) some [gamerule](https://minecraft.gamepedia.com/Game_rule):
 - - Set `doFireTick` to `false`
 - - Set `doWeatherCycle` to `false`
 - - Set `keepInventory` to `true`
@@ -54,15 +54,15 @@ For more options in the style of this data pack, here's some things you can try:
 
 The features that are currently implemented are as follows:
 
-- Mend everything in the inventory and make them unbreakable
-- Make productions (slabs and stairs) smeltable and "vineable" (if has the original recipe)
-- Make tools and armor pieces cheaply upgradable using smithing table (wooden/leather -> iron -> diamond)
+- Mend everything in the players' inventory and make them unbreakable
+- Make productions ([slabs](https://minecraft.gamepedia.com/Slab) and [stairs](https://minecraft.gamepedia.com/Stairs)) smeltable and "vineable" (if has the original recipe)
+- Make tools and armor pieces cheaply upgradable using [smithing table](https://minecraft.gamepedia.com/Smithing_Table) (wooden/leather -> iron -> diamond)
 
 ## Known Issues
 
 - Mending a thing and making it unbreakable removes all NBT tags but `Unbreakable`
 - Upgrading a tool or a armor piece may remove its NBT tags
-- Cleaning the content with file opened that should be cleaned might duplicate the file, which could cause duplication in the recipe book
+- Cleaning the content with file opened that should be cleaned might duplicate the file, which could cause duplication in the [recipe book](https://minecraft.gamepedia.com/Recipe_book)
 
 ## Donation
 
