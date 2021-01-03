@@ -1,0 +1,6 @@
+unbreakableItem:true
+smeltableRecipes:true
+vineableRecipes:true
+upgradableRecipes:true
+decraftableRecipes:true
+shapelessRecipes:true
