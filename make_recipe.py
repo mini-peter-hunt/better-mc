@@ -23,7 +23,7 @@ vineables = [
     ('cobblestone', 'mossy_cobblestone'),
     ('stone_brick', 'mossy_stone_brick'),
 ]
-vineable_types = ('slab', 'stairs')
+vineable_types = ('slab', 'stairs', 'wall')
 
 tool_upgradables = [
     ('wooden', 'cobblestone', 'stone'),

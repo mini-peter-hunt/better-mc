@@ -12,6 +12,9 @@ A data pack that change Minecraft, not limited to crafting! Contains easier
 tool, weapon and armor usage. There are even more options in the same style in
 the description below.
 
+Inspirated by [Vanilla Tweaks](http://vanillatweaks.net/) and
+[Quark](https://quark.vazkii.net/)
+
 ## Installation
 
 To generate the full content, use the following command:
@@ -36,8 +39,7 @@ Add this data pack to a exist world:
   folder into the `datapacks`
 - Run the game and use the command `/reload` to load the added data packs.
 
-Or generate a world with this data pack. (started from
-[1.16 Pre-release 1](https://minecraft.gamepedia.com/Java_Edition_1.16_Pre-release_1))
+Or generate a world with this data pack. (started from 1.16 Pre-release 1)
 
 Please note that the data pack itself which Minecraft uses is the `better-craft`
 inside this folder.
@@ -48,13 +50,14 @@ This project requires Python 3.6+
 
 For more options in the style of this data pack, here's some things you can try:
 
-- [Modify](https://minecraft.gamepedia.com/Commands/gamerule) some
-  [gamerule](https://minecraft.gamepedia.com/Game_rule):
+- Modify some gamerule:
 - - Set `doFireTick` to `false`
 - - Set `doWeatherCycle` to `false`
 - - Set `keepInventory` to `true`
 - - Set `mobGriefing` to `false`
 - - Set `randomTickSpeed` to `300`
+- Use [Optifine](https://optifine.net/downloads) (this should be well-known, but
+  just to be sure)
 - Use [Vanilla Tweaks](http://vanillatweaks.net/)
 - Use [Quark Mod](https://quark.vazkii.net/)
 
@@ -63,15 +66,14 @@ For more options in the style of this data pack, here's some things you can try:
 The features that are currently implemented are as follows:
 
 - Mend everything in the players' inventory and make them unbreakable
-- Make productions ([slabs](https://minecraft.gamepedia.com/Slab) and
-  [stairs](https://minecraft.gamepedia.com/Stairs)) smeltable and "vineable" (if
-  has the original recipe)
-- Make tools and armor pieces cheaply upgradable using
-  [smithing table](https://minecraft.gamepedia.com/Smithing_Table)
-  (wooden/leather -> iron -> diamond)
-- Make some of the crafting products decraftable.
+  (`unbreakableItem`)
+- Make productions (slabs and stairs) smeltable and "vineable" (if has the
+  original recipe) (`smeltableRecipes` and `vineableRecipes`)
+- Make tools and armor pieces cheaply upgradable using a smithing table
+  (wooden/leather -> iron -> diamond) (`upgradableRecipes`)
+- Make some of the crafting products decraftable. (`decraftableRecipes`)
 - Implement some of the recipes to be shapeless, which can fit in the 2x2
-  crafting in the player's inventory
+  crafting in the player's inventory (`shapelessRecipes`)
 
 ## Known Issues
 
@@ -79,8 +81,7 @@ The features that are currently implemented are as follows:
   `Unbreakable`
 - Upgrading a tool or a armor piece may remove its NBT tags
 - Cleaning the content with file opened that should be cleaned might duplicate
-  the file, which could cause duplication in the
-  [recipe book](https://minecraft.gamepedia.com/Recipe_book)
+  the file, which could cause duplication in the recipe book
 
 ## Donation
 
