@@ -2,5 +2,5 @@ __pycache__
 .DS_Store
 
 # generation products
-better-crafting/data/minecraft/functions/better_crafting/*
+better-crafting/data/better_crafting/functions/*
 better-crafting/data/minecraft/recipes/*

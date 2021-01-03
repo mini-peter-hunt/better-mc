@@ -4,8 +4,7 @@ from const import TOOL_TYPES, ARMOR_TYPES, TOOL_MATERIALS, ARMOR_MATERIALS
 from options import get_option
 
 
-func_path = join('better-crafting', 'data', 'minecraft',
-                 'functions', 'better_crafting')
+func_path = join('better-crafting', 'data', 'better_crafting', 'functions')
 
 tool_material_shorteneds = ('wdn', 'stn', 'irn', 'gldn', 'dmnd', 'nthr')
 tool_type_shorteneds = ('axe', 'hoe', 'pckx', 'shvl', 'swrd')

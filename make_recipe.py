@@ -62,6 +62,8 @@ ores = []
 for block, item in zip(ORES, MINERALS):
     if block in {'redstone_ore', 'lapis_ore'}:
         ores.append((item, block, 'stone', ['#O#', 'O#O', '#O#']))
+    elif block == 'gilded_blackstone':
+        ores.append((item, block, 'blackstone', ['###', '#O#', '###']))
     elif block == 'nether_gold_ore':
         ores.append((item, block, 'netherrack', ['#O#', 'O#O', '#O#']))
     elif block in {'ancient_debris', 'nether_quartz_ore'}:

@@ -19,7 +19,7 @@ img.cover {
 
 <div class="cover"><img class="cover" src="cover.png"></div>
 
-A data pack that change Minecraft, not limited to crafting! Contains easier
+A data pack that changes Minecraft, not limited to crafting! Contains easier
 tool, weapon and armor usage. There are even more options in the same style in
 the description below.
 
@@ -69,6 +69,7 @@ For more options in the style of this data pack, here's some things you can try:
 - - Set `randomTickSpeed` to `300`
 - Use [Optifine](https://optifine.net/downloads) (this should be well-known, but
   just to be sure)
+- Use [Faithful](https://faithful.team/)
 - Use [Vanilla Tweaks](http://vanillatweaks.net/)
 - Use [Quark](https://quark.vazkii.net/)
 
@@ -91,9 +92,9 @@ The features that are currently implemented are as follows:
 
 ## Known Issues
 
+- All MCFunction files aren't working
 - Mending a tool and making it unbreakable removes all NBT tags but
   `Unbreakable`
-- Upgrading a tool or an armor piece removes its NBT tags
 - Cleaning the content with the file opened that should be cleaned might
   duplicate the file, which could cause duplication in the recipe book
 

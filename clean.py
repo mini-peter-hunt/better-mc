@@ -3,8 +3,7 @@ from os import remove, walk
 
 
 def clean():
-    func_path = join('better-crafting', 'data', 'minecraft',
-                     'functions', 'better_crafting')
+    func_path = join('better-crafting', 'data', 'better_crafting', 'functions')
 
     for path in [*walk(func_path)][0][2]:
         remove(join(func_path, path))
