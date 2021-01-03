@@ -14,8 +14,11 @@ def clean():
     for path in [*walk(recipe_path)][0][2]:
         remove(join(recipe_path, path))
 
+    with open(join(func_path, 'init.mcfunction'), 'w') as file:
+        pass
+
     with open(join(func_path, 'tick.mcfunction'), 'w') as file:
-        file.write('')
+        pass
 
 
 if __name__ == '__main__':

@@ -23,7 +23,7 @@ To generate the full content, use the following command:
 python3 make.py
 ```
 
-You can adjust the `options.txt` to configurate the content to generate
+You can adjust the `options.txt` to configure the content to generate
 
 And to clean up the generated content, use the following command:
 
@@ -31,7 +31,7 @@ And to clean up the generated content, use the following command:
 python3 clean.py
 ```
 
-Add this data pack to a exist world:
+Add this data pack to an existing world:
 
 - Go to your `.minecraft` folder, go to `saves` and enter the world you want
   this data pack installed.
@@ -68,20 +68,22 @@ The features that are currently implemented are as follows:
 - Mend everything in the players' inventory and make them unbreakable
   (`unbreakableItem`)
 - Make productions (slabs and stairs) smeltable and "vineable" (if has the
-  original recipe) (`smeltableRecipes` and `vineableRecipes`)
+  original recipe) (`smeltableProducts` and `vineableProducts`)
 - Make tools and armor pieces cheaply upgradable using a smithing table
-  (wooden/leather -> iron -> diamond) (`upgradableRecipes`)
-- Make some of the crafting products decraftable. (`decraftableRecipes`)
+  (wooden/leather -> iron -> diamond) (`upgradableTools`)
+- Make some of the crafting products "decraftable". (`decraftableProducts`)
 - Implement some of the recipes to be shapeless, which can fit in the 2x2
   crafting in the player's inventory (`shapelessRecipes`)
+- Make saplings, mushrooms and fungus craftable from corresponding blocks at 1:1
+  ratio (`craftableSaplings`)
 
 ## Known Issues
 
 - Mending a thing and making it unbreakable removes all NBT tags but
   `Unbreakable`
-- Upgrading a tool or a armor piece may remove its NBT tags
-- Cleaning the content with file opened that should be cleaned might duplicate
-  the file, which could cause duplication in the recipe book
+- Upgrading a tool or an armor piece may remove its NBT tags
+- Cleaning the content with the file opened that should be cleaned might
+  duplicate the file, which could cause duplication in the recipe book
 
 ## Donation
 
