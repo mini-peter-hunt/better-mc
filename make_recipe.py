@@ -4,7 +4,7 @@ from os.path import join
 from const import (
     TOOL_TYPES, ARMOR_TYPES,
     TREE_TYPES, MUSHROOM_TYPES, FUNGUS_TYPES, FUNGUS_BLOCK_TYPES,
-    COLORS)
+    ORES, MINERALS, COLORS)
 from options import get_option
 
 
@@ -56,6 +56,18 @@ for mushroom in MUSHROOM_TYPES:
 
 for fungus, fungus_block in zip(FUNGUS_TYPES, FUNGUS_BLOCK_TYPES):
     saplings.append((f'{fungus_block}_wart_block', f'{fungus}_fungus'))
+
+ores = []
+
+for block, item in zip(ORES, MINERALS):
+    if block in {'redstone_ore', 'lapis_ore'}:
+        ores.append((item, block, 'stone', ['#O#', 'O#O', '#O#']))
+    elif block == 'nether_gold_ore':
+        ores.append((item, block, 'netherrack', ['#O#', 'O#O', '#O#']))
+    elif block in {'ancient_debris', 'nether_quartz_ore'}:
+        ores.append((item, block, 'netherrack', ['###', '#O#', '###']))
+    else:
+        ores.append((item, block, 'stone', ['###', '#O#', '###']))
 
 
 def write_smeltable_recipes(material, result, kind):
@@ -119,6 +131,15 @@ def write_sapling_recipes(material, result):
                          'result': {'item': f'minecraft:{result}'}}))
 
 
+def write_ore_recipes(material, result, stone, pattern):
+    with open(join(recipe_path, f'{result}.json'), 'w') as file:
+        file.write(dump({'type': 'minecraft:crafting_shaped',
+                         'pattern': pattern,
+                         'key': {'#': {'item': f'minecraft:{stone}'},
+                                 'O': {'item': f'minecraft:{material}'}},
+                         'result': {'item': f'minecraft:{result}'}}))
+
+
 def make_recipe():
     if get_option('smeltableProducts'):
         for material, result in smeltables:
@@ -151,6 +172,10 @@ def make_recipe():
     if get_option('craftableSaplings'):
         for material, result in saplings:
             write_sapling_recipes(material, result)
+
+    if get_option('craftableOres'):
+        for material, result, stone, pattern in ores:
+            write_ore_recipes(material, result, stone, pattern)
 
 
 if __name__ == '__main__':

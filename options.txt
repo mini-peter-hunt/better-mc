@@ -5,3 +5,4 @@ upgradableTools:true
 decraftableProducts:true
 shapelessRecipes:true
 craftableSaplings:true
+craftableOres:true

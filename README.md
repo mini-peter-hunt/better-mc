@@ -76,6 +76,7 @@ The features that are currently implemented are as follows:
   crafting in the player's inventory (`shapelessRecipes`)
 - Make saplings, mushrooms and fungus craftable from corresponding blocks at 1:1
   ratio (`craftableSaplings`)
+- Make ores crafting from mineral and corrosponding stone (`craftableOres`)
 
 ## Known Issues
 
