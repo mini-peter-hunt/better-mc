@@ -8,6 +8,17 @@
   <img src="https://img.shields.io/github/license/mini-peter-hunt/better-crafting">
 </p>
 
+<style>
+div.cover {
+  text-align: center;
+}
+img.cover {
+  width: 80%;
+}
+</style>
+
+<div class="cover"><img class="cover" src="cover.png"></div>
+
 A data pack that change Minecraft, not limited to crafting! Contains easier
 tool, weapon and armor usage. There are even more options in the same style in
 the description below.
@@ -25,7 +36,7 @@ python3 make.py
 
 You can adjust the `options.txt` to configure the content to generate
 
-And to clean up the generated content, use the following command:
+And to delete the generated content, use the following command:
 
 ```
 python3 clean.py
@@ -59,7 +70,7 @@ For more options in the style of this data pack, here's some things you can try:
 - Use [Optifine](https://optifine.net/downloads) (this should be well-known, but
   just to be sure)
 - Use [Vanilla Tweaks](http://vanillatweaks.net/)
-- Use [Quark Mod](https://quark.vazkii.net/)
+- Use [Quark](https://quark.vazkii.net/)
 
 ## Current State
 
@@ -80,9 +91,9 @@ The features that are currently implemented are as follows:
 
 ## Known Issues
 
-- Mending a thing and making it unbreakable removes all NBT tags but
+- Mending a tool and making it unbreakable removes all NBT tags but
   `Unbreakable`
-- Upgrading a tool or an armor piece may remove its NBT tags
+- Upgrading a tool or an armor piece removes its NBT tags
 - Cleaning the content with the file opened that should be cleaned might
   duplicate the file, which could cause duplication in the recipe book
 
