@@ -20,8 +20,8 @@ img.cover {
 <div class="cover"><img class="cover" src="cover.png"></div>
 
 A data pack that changes Minecraft, not limited to crafting! Contains easier
-tool, weapon and armor usage. There are even more options in the same style in
-the description below.
+tools, weapons, and armor usage. There are even more options in the same style
+in the description below.
 
 Inspired by [Vanilla Tweaks](http://vanillatweaks.net/) and
 [Quark](https://quark.vazkii.net/)
@@ -49,7 +49,7 @@ python3 clean.py
 Add this data pack to an existing world:
 
 - Go to your `.minecraft` folder, go to `saves` and enter the world you want
-  this data pack installed.
+  this data pack to be installed.
 - Go to `datapacks` and copy the `better-crafting` folder inside the project
   folder into the `datapacks`
 - Run the game and use the command `/reload` to load the added data packs.
