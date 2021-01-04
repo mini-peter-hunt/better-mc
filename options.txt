@@ -1,4 +1,4 @@
-unbreakableItem:true
+unbreakableItem:false
 smeltableProducts:true
 vineableProducts:true
 upgradableTools:true

@@ -23,10 +23,14 @@ A data pack that changes Minecraft, not limited to crafting! Contains easier
 tool, weapon and armor usage. There are even more options in the same style in
 the description below.
 
-Inspirated by [Vanilla Tweaks](http://vanillatweaks.net/) and
+Inspired by [Vanilla Tweaks](http://vanillatweaks.net/) and
 [Quark](https://quark.vazkii.net/)
 
 ## Installation
+
+The data pack in the project itself is generated with the default and
+recommended options, but to customize your data pack, use the following
+instructions:
 
 To generate the full content, use the following command:
 
