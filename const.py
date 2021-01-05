@@ -17,8 +17,10 @@ ORES = ('coal_ore', 'iron_ore', 'gold_ore', 'redstone_ore',
         'gilded_blackstone', 'ancient_debris')
 MINERALS = ('coal', 'iron_ingot', 'gold_ingot', 'redstone',
             'lapis_lazuli', 'diamond', 'emerald',
-            'gold_nugget', 'quartz',
-            'gold_nugget', 'netherite_scrap')
+            'gold_nugget', 'quartz', 'gold_nugget', 'netherite_scrap')
+SMELTED_MINERALS = ('coal', 'iron_ingot', 'gold_ingot', 'redstone',
+                    'lapis_lazuli', 'diamond', 'emerald',
+                    'gold_ingot', 'quartz', 'gold_ingot', 'netherite_scrap')
 
 COLORS = ['black', 'blue', 'brown', 'cyan', 'gray', 'green',
           'light_blue', 'light_gray', 'lime', 'magenta',

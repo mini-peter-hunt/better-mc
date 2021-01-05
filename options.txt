@@ -6,3 +6,4 @@ decraftableProducts:true
 shapelessRecipes:true
 craftableSaplings:true
 craftableOres:true
+betterSmeltingOres:true

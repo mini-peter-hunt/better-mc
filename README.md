@@ -90,9 +90,11 @@ The features that are currently implemented are as follows:
 - Make some of the crafting products "decraftable". (`decraftableProducts`)
 - Implement some of the recipes to be shapeless, which can fit in the 2x2
   crafting in the player's inventory (`shapelessRecipes`)
-- Make saplings, mushrooms and fungus craftable from corresponding blocks at 1:1
+- Make saplings, mushroom and fungus craftable from corresponding blocks at 1:1
   ratio (`craftableSaplings`)
-- Make ores crafting from mineral and corrosponding stone (`craftableOres`)
+- Make ores crafting from mineral and corresponding stone (`craftableOres`)
+- Make mineral craftable from surrounding ores with a coal in the crafting
+  table, result in no xp but double mineral loot (`betterSmeltingOres`)
 
 ## Known Issues
 

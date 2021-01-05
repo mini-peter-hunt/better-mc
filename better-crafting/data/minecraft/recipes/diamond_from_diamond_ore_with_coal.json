@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "O#O",
+    "OOO"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal"
+    },
+    "O": {
+      "item": "minecraft:diamond_ore"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 16
+  }
+}

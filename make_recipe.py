@@ -4,7 +4,7 @@ from os.path import join
 from const import (
     TOOL_TYPES, ARMOR_TYPES,
     TREE_TYPES, MUSHROOM_TYPES, FUNGUS_TYPES, FUNGUS_BLOCK_TYPES,
-    ORES, MINERALS, COLORS)
+    ORES, MINERALS, SMELTED_MINERALS, COLORS)
 from options import get_option
 
 
@@ -142,6 +142,17 @@ def write_ore_recipes(material, result, stone, pattern):
                          'result': {'item': f'minecraft:{result}'}}))
 
 
+def write_better_smelting_ore_recipes(material, result):
+    with open(join(recipe_path,
+                   f'{result}_from_{material}_with_coal.json'), 'w') as file:
+        file.write(dump({'type': 'minecraft:crafting_shaped',
+                         'pattern': ['OOO', 'O#O', 'OOO'],
+                         'key': {'#': {'item': f'minecraft:coal'},
+                                 'O': {'item': f'minecraft:{material}'}},
+                         'result': {'item': f'minecraft:{result}',
+                                    'count': 16}}))
+
+
 def make_recipe():
     if get_option('smeltableProducts'):
         for material, result in smeltables:
@@ -178,6 +189,10 @@ def make_recipe():
     if get_option('craftableOres'):
         for material, result, stone, pattern in ores:
             write_ore_recipes(material, result, stone, pattern)
+
+    if get_option('betterSmeltingOres'):
+        for material, result in zip(ORES, SMELTED_MINERALS):
+            write_better_smelting_ore_recipes(material, result)
 
 
 if __name__ == '__main__':
