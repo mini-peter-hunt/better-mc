@@ -93,8 +93,9 @@ The features that are currently implemented are as follows:
 - Make saplings, mushroom and fungus craftable from corresponding blocks at 1:1
   ratio (`craftableSaplings`)
 - Make ores crafting from mineral and corresponding stone (`craftableOres`)
-- Make mineral craftable from surrounding ores with a coal in the crafting
-  table, result in no xp but double mineral loot (`betterSmeltingOres`)
+- Make mineral craftable from surrounding ores with a piece of coal in the
+  crafting table, result in no experience but double mineral loot
+  (`betterSmeltingOres`)
 
 ## Known Issues
 
