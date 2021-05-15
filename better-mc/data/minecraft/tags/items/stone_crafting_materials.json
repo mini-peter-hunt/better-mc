@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "cobblestone",
+    "stone",
+    "smooth_stone",
+    "andesite",
+    "polished_andesite",
+    "diorite",
+    "polished_diorite",
+    "granite",
+    "polished_granite",
+    "sandstone",
+    "smooth_sandstone",
+    "red_sandstone",
+    "smooth_red_sandstone",
+    "netherrack",
+    "blackstone",
+    "basalt",
+    "polished_basalt",
+    "smooth_basalt",
+    "end_stone"
+  ]
+}

@@ -12,7 +12,7 @@ def dump(obj):
     return dumps(obj, indent=2)
 
 
-recipe_path = join('better-crafting', 'data', 'minecraft', 'recipes')
+recipe_path = join('better-mc', 'data', 'minecraft', 'recipes')
 
 smeltables = [
     ('cobblestone', 'stone'),

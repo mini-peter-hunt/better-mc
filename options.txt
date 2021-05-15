@@ -1,4 +1,3 @@
-unbreakableItem:false
 smeltableProducts:true
 vineableProducts:true
 upgradableTools:true
@@ -7,3 +6,8 @@ shapelessRecipes:true
 craftableSaplings:true
 craftableOres:true
 betterSmeltingOres:true
+
+endermanUnpickable:true
+mushroomGrowable:true
+variantedStoneRecipe:true
+naturalSoul:true
