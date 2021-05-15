@@ -1,27 +1,6 @@
 # Better Crafting
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/mini-peter-hunt/better-crafting">
-  <img src="https://img.shields.io/static/v1?label=Contributions&message=Welcome&color=0059b3">
-  <img src="https://img.shields.io/github/repo-size/mini-peter-hunt/better-crafting">
-  <img src="https://img.shields.io/github/languages/top/mini-peter-hunt/better-crafting">
-  <img src="https://img.shields.io/github/license/mini-peter-hunt/better-crafting">
-</p>
-
-<style>
-div.cover {
-  text-align: center;
-}
-img.cover {
-  width: 80%;
-}
-</style>
-
-<div class="cover"><img class="cover" src="cover.png"></div>
-
-A data pack that changes Minecraft, not limited to crafting! Contains easier
-tools, weapons, and armor usage. There are even more options in the same style
-in the description below.
+Inspirating recipes and tags that change Minecraft!
 
 Inspired by [Vanilla Tweaks](http://vanillatweaks.net/) and
 [Quark](https://quark.vazkii.net/)
